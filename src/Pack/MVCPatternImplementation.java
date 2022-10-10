@@ -19,7 +19,6 @@ public class MVCPatternImplementation {
         System.out.println("\nAfter updating, Language Details are as follows");
 
         controller.updateView();
-        System.out.println("Done");
     }
 
     private static Language retriveLanguageFromDatabase() {
